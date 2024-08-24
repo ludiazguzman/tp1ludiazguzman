@@ -17,6 +17,7 @@ h2 {
     font-weight: 100;
     font-style: normal;
     font-size: 4em;
+    color:#716078
  }
 
  .ballinger {
@@ -24,5 +25,28 @@ h2 {
     font-weight: 400;
     font-style: normal;
     font-size: 2em;
-    color:#716078 ;
+}
+
+.bebaslila {
+    font-family: "bebas-neue-by-fontfabric", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2em;
+    color:#716078
+}
+.ballingeritalic {
+    font-family: "ballinger", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 2em;
+}
+
+ul, li {
+    font-family: "bebas-neue-by-fontfabric", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5em;
+    list-style: none;
+    display: inline-block;
+    padding-left: 0;
 }
