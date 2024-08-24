@@ -49,4 +49,12 @@ ul, li {
     list-style: none;
     display: inline-block;
     padding-left: 0;
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: black;
+    font-size: 1.51em;
 }
