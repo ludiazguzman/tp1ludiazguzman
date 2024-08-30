@@ -58,3 +58,7 @@ a:hover {
     color: black;
     font-size: 1.51em;
 }
+
+.flex-Container-header {
+    display: flex;
+} 
