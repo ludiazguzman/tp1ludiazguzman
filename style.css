@@ -62,3 +62,8 @@ a:hover {
 .flex-Container-header {
     display: flex;
 } 
+
+.flex-item-section { 
+    align-self: flex-end;
+
+}
