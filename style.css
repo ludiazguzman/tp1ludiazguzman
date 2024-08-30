@@ -8,7 +8,7 @@ h1 {
     font-family: "bebas-neue-by-fontfabric", sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 6em;
+    font-size: 10em;
 }
 
 
@@ -49,6 +49,7 @@ ul, li {
     list-style: none;
     display: inline-block;
     padding-left: 0;
+        
 }
 a {
     text-decoration: none;
@@ -59,11 +60,39 @@ a:hover {
     font-size: 1.51em;
 }
 
-.flex-Container-header {
+.flex-Container-header{
     display: flex;
-} 
+    flex-direction: row;  /* esta por defaul pero la pongo para ordenarme */
+    }
 
-.flex-item-section { 
+.section-header {
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-self: flex-end;
+    margin-left: 40px;
+}
 
+.flex-Container-ul {
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+}
+nav {
+    height: 200px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.flex-item-li2 {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+}
+
+li {
+    margin: 10px;
 }
