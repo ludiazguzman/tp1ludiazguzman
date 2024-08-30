@@ -69,7 +69,6 @@ header {
     flex-direction: column;
 }
 
-
 .section-header {
     height: 700px;
     display: flex;
@@ -80,8 +79,6 @@ header {
     margin-left: 40px;
 /* border:1px solid black ;*/
 }
-
-
 
 nav {
     margin-left: 40px;
