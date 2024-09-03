@@ -103,15 +103,15 @@ main {
     justify-content: center;
 }
 
-
-.cursos .ballinger {
+.cursos { 
     margin left: 20px ;
-    margin-top: 40px;
-}
-.niveles .bebaslila {
-    margin-top: 50px;
-    margin-right: 40px;
-}
-.niveles .cursos {
-    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+.niveles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 50px;
 }
