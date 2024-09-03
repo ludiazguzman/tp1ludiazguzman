@@ -8,9 +8,8 @@ h1 {
     font-family: "bebas-neue-by-fontfabric", sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 10em;
-   }
-
+    font-size: 10em; 
+}
 
 h2 {
     font-family: "bebas-neue-by-fontfabric", sans-serif;
@@ -34,6 +33,7 @@ h2 {
     font-size: 2em;
     color:#716078
 }
+
 .ballingeritalic {
     font-family: "ballinger", sans-serif;
     font-weight: 200;
@@ -56,6 +56,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 a:hover {
     color: black;
     font-size: 35px;
@@ -77,8 +78,7 @@ header {
     flex-wrap: wrap;
     justify-content: flex-end;
     order: 2;
-    margin-left: 60px;
- /* border:1px solid black ; */
+    margin-left:60px;
 }
 
 nav {
