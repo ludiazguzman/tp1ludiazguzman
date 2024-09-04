@@ -155,7 +155,7 @@ main {
     margin-left: 50px;
 }
 .tp {
-    height:2300px;
+    height: 2000px;;
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -212,4 +212,13 @@ footer  {
     height: 190pxpx;
     text-align: center;
     
+}
+.acontacto :hover { 
+    color: black;
+    font-size: 2em;
+}
+
+.instagram :hover {
+    height: 60px;
+    width: 60px;
 }
