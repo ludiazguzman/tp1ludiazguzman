@@ -15,7 +15,7 @@ h2 {
     font-family: "bebas-neue-by-fontfabric", sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 6em;
+    font-size: 8em;
     color:#716078
 }
 
@@ -107,11 +107,49 @@ main {
     margin left: 20px ;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-} 
-.niveles {
+    justify-content: flex-start;
+    } 
+
+.unla {
+    height:65px;
+    margin-top:5px;
+}
+.edu {
+    height: 65px; 
+}
+.edu3 {
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+.lic {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.niveles .bebaslila {
+    height: 130px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-right: 50px;
+}
+#experiencia {
+    margin-top: 100px;
+    margin-left: 660px;
+}
+.laboral {
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.grafica {
+    margin-right: 20px;
+}
+
+.tareas {
+    margin-left: 50px;
 }
