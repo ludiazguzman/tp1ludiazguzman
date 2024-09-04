@@ -104,7 +104,7 @@ main {
 }
 
 .cursos { 
-    margin left: 20px ;
+    margin-left: 20px ;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -121,6 +121,7 @@ main {
     height: 130px;
     display: flex;
     align-items: center;
+    margin-bottom: 5px;
 }
 .lic {
     display: flex;
@@ -163,4 +164,52 @@ main {
 
 img {
 margin: 20px;
+}
+
+#Contacto {
+    margin-top: 60px;
+    }
+
+.contacto-padre {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contactos {
+    margin-right:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.datocontactos {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer  {
+    margin-top: 100px;
+    border-top: 5px solid black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.saber {
+    height: 90px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 5em;
+    text-align: center;
+}
+.redes {
+    height: 190pxpx;
+    text-align: center;
+    
 }
