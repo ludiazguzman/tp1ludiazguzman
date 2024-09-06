@@ -16,7 +16,7 @@ h2 {
     font-weight: 100;
     font-style: normal;
     font-size: 8em;
-    color:#716078
+    color:#716078;
 }
 
 .ballinger {
@@ -137,8 +137,10 @@ main {
     margin-right: 50px;
 }
 #experiencia {
-    margin-top: 100px;
-    margin-left: 660px;
+display: flex;
+justify-content: center;
+margin-top: 100px;
+margin-left: 300px;
 }
 .laboral {
     height: 300px;
@@ -201,7 +203,12 @@ footer  {
     justify-content: center;
 }
 
-.saber {
+h3 {
+    font-family: "bebas-neue-by-fontfabric", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 8em;
+    color:#716078;
     height: 90px;
     width: 100%;
     margin-top: 20px;
