@@ -8,7 +8,7 @@ h1 {
     font-family: "bebas-neue-by-fontfabric", sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 10em; 
+    font-size: 3em; 
 }
 
 h2 {
@@ -68,26 +68,21 @@ font-size: 1em;
 
 header {
     display: flex;
+    width: 1920px;
+    padding: 50px 225px 20px 225px;
+    justify-content: space-between;
+    align-items: center;
+    height: 190px;
 }
 
-.flex-container-section-head {
-    display: flex;
-    flex-direction: column
-}
+h1 {display: flex;
+    flex-wrap: wrap ;
+    align-items: flex-start;
+height: 120px;
+width: 183px;
+padding: ; }
 
-.div-header {
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    order: 2;
-    margin-left:60px;
-}
 
-nav {
-    margin-left: 50px;
-}
 
 .flex-Container-ul {
     height: 200px;
