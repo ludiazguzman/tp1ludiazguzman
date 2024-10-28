@@ -320,3 +320,35 @@ color: #716078;
     height: 45px;
     width: 45px;
 }
+
+/* TRABAJOS HTML */
+
+.trabajos {
+    display: flex;
+width: 1695px;
+height: 164;
+padding: 20px 0px 20px 225px;
+align-items: flex-start;
+gap: 10px;
+}
+
+.acontinuacion {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    display: flex;
+    width: 1920px;
+    justify-content: center;
+    text-align: left;
+}
+
+.galeria {
+display: flex;
+width: 1900px;
+height: 1364;
+padding: 30px;
+flex-direction: column;
+align-items: center;
+}
