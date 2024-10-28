@@ -131,8 +131,8 @@ h3 {
     font-style: normal;
     font-size: 136px;
     color: #716078;
-    width: 1730px; ;
-    padding: 80px 0px 40px 190px;
+    width: 1580px; ;
+    padding: 80px 0px 40px 340px;
 }
 
 .educacion-padre { 
@@ -222,11 +222,12 @@ h3 {
 }
 
 .elaboral {
-    width: 1920px;
-    height: 642px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: inline-flex;
+    padding: 20px 0px 50px 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 1720px;
 }
 
 #laboral {
@@ -234,14 +235,85 @@ h3 {
     height: 154px;
     padding: 80px 0px 20px 760px;
 }
+.efodysur {
+    width: 235px;
+    height: 106px;
+    display: flex;
+    padding: 20px 0px 50px 0px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:5px;
+    flex-direction: column;
+}
 
+.efod {
+    width: 870px;
+    padding: 20px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
 
+.egrafica {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+.efechas {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #716078;
+}
+.desempeño {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
 
+.oficio {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 300;
+}
 
+#hobbies {
+    width: 1550px;
+    height: 154px;
+    display: flex;
+padding: 80px 0px 20px 370px;
+align-items: center;
+gap: 10px;
+}
 
+.club {
+    width: 200px;
+    height: 106px;
+    display: flex;
+    padding: 20px 0px 50px 0px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
 
-
-
+.clubp {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    padding: 20px 0px 50px 0px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.aire {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #716078;
+text-align: right; }
 
 
 
