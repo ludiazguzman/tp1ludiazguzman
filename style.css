@@ -125,45 +125,138 @@ h2 {
     width: 320px;
 }
 
-
-.ballinger {
-    font-family: "ballinger", sans-serif;
-    font-weight: 400;
+h3 {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-weight: 100;
     font-style: normal;
-    font-size: 3em;
+    font-size: 136px;
+    color: #716078;
+    width: 1730px; ;
+    padding: 80px 0px 40px 190px;
 }
-
-.bebaslila {
-    font-family: "bebas-neue-by-fontfabric", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 3em;
-    color:#716078
-}
-
-.ballingeritalic {
-    font-family: "ballinger", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-    font-size: 2em;
-}
-
-
-
-
-
-
-
-
-
-
 
 .educacion-padre { 
-    height: 400px;
-    width: 100%;
+    height: 942px;
+    width: 1920px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    gap: 40px;
 }
+
+.licdiseño 
+{
+    display: flex;
+    width: 1855px;
+    height: 106px;
+    padding: 30px 65px 30px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.idioma {
+    display: flex;
+    width: 1720px;
+    height: 106px;
+    padding: 30px 200px 30px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.programas {
+    display: flex;
+    width: 1825px;
+    height: 58px;
+    padding: 30px 95px 30px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.historia {
+    display: flex;
+    width: 1670px;
+    height: 106px;
+    padding: 30px 250px 30px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.filo {
+    display: flex;
+    width: 1710px;
+    height: 106px;
+    padding: 30px 210px 30px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.encurso{
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 200;
+    color: #716078;
+}
+
+.licenciatura {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.diseño {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.unla {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.elaboral {
+    width: 1920px;
+    height: 642px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#laboral {
+    width: 1160px;
+    height: 154px;
+    padding: 80px 0px 20px 760px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .cursos { 
     margin-left: 20px ;
@@ -264,7 +357,7 @@ footer  {
     justify-content: center;
 }
 
-h3 {
+h4 {
     font-family: "bebas-neue-by-fontfabric", sans-serif;
     font-weight: 100;
     font-style: normal;
