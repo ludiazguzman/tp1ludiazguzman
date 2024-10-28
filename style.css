@@ -57,9 +57,8 @@ ul, li {
     font-size: 32px;
     list-style: none;
 }
-.elaboral {
-    width: 220px;
-}
+
+
 
 a {
     text-decoration: none;
@@ -73,15 +72,7 @@ li a:hover {
     color: floralwhite ;
 }
 
-img {
-    width: 1920px;
-    height: 667px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
+
 
 h2 {
     font-family: "Sofia Sans Extra Condensed", sans-serif;
@@ -315,8 +306,17 @@ gap: 10px;
     color: #716078;
 text-align: right; }
 
-
+.redes {
+    display: flex;
+width: 1920px;
+height: 100px;
+justify-content: center;
+align-items: center;
+gap: 40px;
+border-top: 1px solid;
+color: #716078;
+}
 .instagram :hover {
-    height: 60px;
-    width: 60px;
+    height: 45px;
+    width: 45px;
 }
