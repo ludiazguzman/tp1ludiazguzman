@@ -395,5 +395,13 @@ color: #716078;
     font-size: 28px;
     font-weight: 300;
     font-style: italic;
-
 }
+
+/* CONTACTOS HTML */
+
+.formulariotamaño {
+    width: 100%;
+    height: auto;
+    background-color: #716078;
+}
+
