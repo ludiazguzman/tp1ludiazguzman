@@ -39,11 +39,16 @@ h1 {
     align-items: center;
 } */
 
+.fotodelucia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1920px;
+}
 .flex-Container-ul {
     height: 30px;
     width: 705px;
     padding-bottom: 10px;
-    padding-left: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,7 +70,15 @@ a {
     color: black;
 }
 
-li a:hover {
+
+li a:hover  {
+    background-color: black;
+    border-radius: 5%;
+    padding: 5px;
+    color: floralwhite ;
+}
+
+.experiencialaboral:hover  {
     background-color: black;
     border-radius: 5%;
     padding: 5px;
