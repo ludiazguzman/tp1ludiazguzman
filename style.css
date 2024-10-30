@@ -14,6 +14,11 @@ header {
     justify-content: space-between;
     align-items: center;
     height:120px;
+    
+}
+
+.headerdos { border-bottom: 1px solid #716078 ;
+
 }
 
 h1 {
@@ -402,7 +407,7 @@ color: #716078;
 
 
 form {
-    width: 1920px;
+    width: 1250px;
     height: auto;
     background-color: #716078;
     display: flex;
