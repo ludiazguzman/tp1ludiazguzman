@@ -474,4 +474,9 @@ padding-bottom: 10px;
 
 }
 
+audio{
+    width: 100px;
+}
+
+/* MEDIA QUERIES colocado en el html de trabajos*/
 
