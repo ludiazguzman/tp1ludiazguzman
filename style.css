@@ -15,6 +15,7 @@ header {
     align-items: center;
     height:120px;
     
+    
 }
 
 .headerdos { border-bottom: 1px solid #716078 ;
@@ -35,6 +36,7 @@ h1 {
 }
 
 
+
 /* nav {
     height: 30px;
     width: 705px;
@@ -49,6 +51,12 @@ h1 {
     flex-direction: row;
     justify-content: center;
     width: 1920px;
+}
+
+.flecha{
+    position: fixed;
+    bottom: 50px;
+    right: 80px;
 }
 .flex-Container-ul {
     height: 30px;
