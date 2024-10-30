@@ -399,9 +399,66 @@ color: #716078;
 
 /* CONTACTOS HTML */
 
-.formulariotamaño {
-    width: 100%;
+
+
+form {
+    width: 1920px;
     height: auto;
     background-color: #716078;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 670px;
+    
 }
+
+label {
+    width: 30%;
+    height: 40px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+input {
+    width: 30%;
+    height: 60px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+    border-radius: 0 10px 0 10px;
+    padding-left: 10px;
+}
+textarea {
+    width: 40%;
+    height: 200px;
+    border-radius: 0 10px 0 10px;
+    padding: 10px;
+}
+
+.boton {
+display: flex;
+justify-content: flex-end;
+width: 40%;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.enviar {
+    width: 20%;
+    height: 15%;
+    border-radius: 5px;
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    color: black;
+    font-style: italic;
+    font-weight: 500;
+    padding: 20px;
+
+}
+
 
