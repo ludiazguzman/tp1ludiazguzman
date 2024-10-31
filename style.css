@@ -351,11 +351,11 @@ color: #716078;
 
 .trabajos {
     display: flex;
-width: 1695px;
-height: 164;
-padding: 20px 0px 20px 225px;
-align-items: flex-start;
-gap: 10px;
+    width: 1695px;
+    height: 164;
+    padding: 20px 0px 20px 225px;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .acontinuacion {
@@ -485,30 +485,34 @@ audio{
     .galeria { 
         display: flex;
         width: 100%;
-        
         flex-direction:column;
         justify-content: center;
         align-items: center;
-        }
-        .trabajos {
-        display: flex;
-        width: 100%;
-        height: auto;
-        padding left: 30px;
-        align-items: center;
-        gap: 10px;
+
+        background-color: #716078;
         }
         
         .acontinuacion {
             font-family: "Sofia Sans Extra Condensed", sans-serif;
-            font-size: 36px;
+            font-size: 20px;
             font-style: italic;
             font-weight: 300;
             line-height: normal;
             display: flex;
-            width: 1920px;
+            width: 100%;
             justify-content: center;
             text-align: left;
         }
+
+        .trabajos {
+            display: flex;
+            width: 600px;
+            padding: 0px;
+            height: auto;
+            justify-content: center;
+            font-family: "Sofia Sans Extra Condensed", sans-serif;
+            font-size: 50px;
+        }
         
-}
+        }
+        
